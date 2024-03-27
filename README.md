@@ -60,13 +60,13 @@ $ npm run dev                   // run it locally
 
 # Screenshots of this project
 
-![Home](https://imgur.com/ILBe40o)
+![Home](http://i.imgur.com/ILBe40o.png)
 
-![Products](https://imgur.com/fMTxUZw)
+![Products](https://i.imgur.com/fMTxUZw.png)
 
-![Users](https://imgur.com/qNUWSgl)
+![Users](https://i.imgur.com/qNUWSgl.png)
 
-![Cart](https://imgur.com/sCrANlx)
+![Cart](https://i.imgur.com/sCrANlx.png)
 
 ## Standard
 
