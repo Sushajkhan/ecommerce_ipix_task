@@ -43,12 +43,11 @@ $ npm run dev                   // run it locally
 
 # Dependencies(tech-stacks)
 
-| --------------------------- |
-| axios: ^1.6.8 |
-| react : ^18.2.0 |
-| react-dom: ^18.2.0 |
-| react-icon:^5.0.1 |
-| react-router-dom: ^6.22.3 |
+- axios: ^1.6.8
+- react : ^18.2.0
+- react-dom: ^18.2.0
+- react-icon:^5.0.1
+- react-router-dom: ^6.22.3
 
 ## Features
 
