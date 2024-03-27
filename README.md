@@ -26,7 +26,7 @@ package.json
 ...
 ```
 
-# Usage (run fullstack app on your machine)
+# Usage 
 
 ## Prerequisites
 
