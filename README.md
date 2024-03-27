@@ -30,7 +30,7 @@ package.json
 
 ## Prerequisites
 
-- [Node](https://nodejs.org/en/download/) ^10.0.0
+- [Node](https://nodejs.org/en/download/) 
 - [npm](https://nodejs.org/en/download/package-manager/)
 
 ## usage
