@@ -5,7 +5,7 @@ const Card = ({ item }) => {
   return (
     <div className="max-w-2xl mx-auto">
       <div className="bg-white shadow-md rounded-lg max-w-sm">
-        <Link to={`/shop/${item.id}`} className="block">
+        <Link to={`/products/${item.id}`} className="block">
           <img
             className="rounded-t-lg p-8"
             src={item.images[0]}

@@ -49,37 +49,53 @@ const Products = () => {
           <div className="flex flex-row justify-start md:items-center md:gap-8 gap-4  flex-wrap">
             <button
               onClick={showAll}
-              className={selectedCategory === "all" ? "active" : ""}
+              className={
+                selectedCategory === "all" ? "active text-orange-600" : ""
+              }
             >
               All Products
             </button>
             <button
-              onClick={() => filterItems("Clothes")}
-              className={selectedCategory === "Clothes" ? "active" : ""}
+              onClick={() => filterItems("change")}
+              className={
+                selectedCategory === "change" ? "active text-orange-600" : ""
+              }
             >
-              Clothing
+              Clothing{" "}
             </button>
             <button
               onClick={() => filterItems("Electronics")}
-              className={selectedCategory === "Electronics" ? "active" : ""}
+              className={
+                selectedCategory === "Electronics"
+                  ? "active text-orange-600"
+                  : ""
+              }
             >
               Electronics
             </button>
             <button
               onClick={() => filterItems("Furniture")}
-              className={selectedCategory === "Furniture" ? "active" : ""}
+              className={
+                selectedCategory === "Furniture" ? "active text-orange-600" : ""
+              }
             >
               Furniture
             </button>
             <button
               onClick={() => filterItems("Shoes")}
-              className={selectedCategory === "Shoes" ? "active" : ""}
+              className={
+                selectedCategory === "Shoes" ? "active text-orange-600" : ""
+              }
             >
               Shoes
             </button>
             <button
               onClick={() => filterItems("Miscellaneous")}
-              className={selectedCategory === "Miscellaneous" ? "active" : ""}
+              className={
+                selectedCategory === "Miscellaneous"
+                  ? "active text-orange-600"
+                  : ""
+              }
             >
               Other
             </button>

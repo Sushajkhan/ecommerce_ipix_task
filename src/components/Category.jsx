@@ -28,7 +28,7 @@ const Category = () => {
           <>
             <div>
               {categories[0] && (
-                <Link to="/">
+                <Link to="/products">
                   <img
                     src={categories[0].image}
                     alt=""
@@ -40,7 +40,7 @@ const Category = () => {
             <div className="md:w-1/2">
               <div className="grid grid-cols-2 gap-2">
                 {categories.slice(1, 5).map((category) => (
-                  <Link key={category.id} to="/">
+                  <Link key={category.id} to="/products">
                     <img
                       src={category.image}
                       alt=""

@@ -1,9 +1,10 @@
 import { useState } from "react";
 
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Header";
 import Footer from "./components/Footer";
 import { Outlet } from "react-router-dom";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <Sidebar />
       <Outlet />
       <Footer />
     </>
