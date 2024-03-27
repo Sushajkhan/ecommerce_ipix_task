@@ -2,7 +2,7 @@ import axios from "axios";
 import { useContext, useEffect, useState } from "react";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import { Link, useParams } from "react-router-dom";
-import { CartContext } from "../Contexts/CartContext";
+import { CartContext } from "../contexts/CartContext";
 
 const SingleProduct = () => {
   const { addToCart } = useContext(CartContext);

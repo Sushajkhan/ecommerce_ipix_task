@@ -2,8 +2,8 @@ import { useContext, useState } from "react";
 import { FaBars, FaShoppingBag, FaTimes, FaUserCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../assets/shopcart.svg";
-import { CartContext } from "../Contexts/CartContext";
-import { SidebarContext } from "../Contexts/SidebarContext";
+import { CartContext } from "../contexts/CartContext";
+import { SidebarContext } from "../contexts/SidebarContext";
 
 const Navbar = () => {
   const { itemAmount } = useContext(CartContext);
